@@ -14,3 +14,8 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/usr/local/opt/postgresql@9.6/bin:/usr/local/opt/node@8/bin:$PATH"
 
 export PATH=$PATH:~/Library/Python/3.7/bin/
+
+git config --global alias.graph="log --all --decorate --oneline --graph"
+git config --global alias.st=status
+git config --global alias.commend=commit --amend --no-edit
+
