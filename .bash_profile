@@ -24,9 +24,3 @@ export NVM_DIR="$HOME/.nvm"
 # finally use the version that ships with the OS.
 export PATH=/usr/local/lib/ruby/gems/2.6.0/bin:$PATH
 eval "$(rbenv init -)"
-
-# Personal Aliases
-alias ber='bundle exec rspec'
-alias be='bundle exec'
-alias sbp='source ~/.bash_profile'
-alias acki='ack --ignore-dir={tmp,vendor,log} $@'
