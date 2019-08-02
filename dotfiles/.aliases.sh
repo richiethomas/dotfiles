@@ -6,4 +6,4 @@ function gitb() {
 alias be='bundle exec'
 alias sbp='source ~/.bash_profile'
 alias acki='ack --ignore-dir={tmp,vendor,log} $@'
-
+alias gpr='git pull --rebase'
