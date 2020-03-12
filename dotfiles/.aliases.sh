@@ -15,3 +15,5 @@ alias gco='git checkout $@'
 alias gno='git show --name-only $@'
 alias ev='EDITOR=vim'
 alias gap='git add -p'
+
+git config --global alias.commend 'commit --amend --no-edit'
