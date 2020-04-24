@@ -17,3 +17,4 @@ alias ev='EDITOR=vim'
 alias gap='git add -p'
 
 git config --global alias.commend 'commit --amend --no-edit'
+alias gcb='git rev-parse --abbrev-ref HEAD'
